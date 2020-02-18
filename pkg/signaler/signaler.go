@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/cloudwebrtc/flutter-webrtc-server/pkg/logger"
-	"github.com/cloudwebrtc/flutter-webrtc-server/pkg/turn"
-	"github.com/cloudwebrtc/flutter-webrtc-server/pkg/websocket"
+	"github.com/femidof/flutter-webrtc-server/pkg/logger"
+	"github.com/femidof/flutter-webrtc-server/pkg/turn"
+	"github.com/femidof/flutter-webrtc-server/pkg/websocket"
 )
 
 func Marshal(m map[string]interface{}) string {

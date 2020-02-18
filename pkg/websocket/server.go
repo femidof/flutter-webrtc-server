@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/cloudwebrtc/flutter-webrtc-server/pkg/logger"
+	"github.com/femidof/flutter-webrtc-server/pkg/logger"
 	"github.com/gorilla/websocket"
 )
 
