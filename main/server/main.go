@@ -40,7 +40,8 @@ func main() {
 
 	port, err := cfg.Section("general").Key("port").Int()
 	if err != nil {
-		port = 8086
+		//port = 8086
+		port = 80
 	}
 
 	htmlRoot := cfg.Section("general").Key("html_root").String()
